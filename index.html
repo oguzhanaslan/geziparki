@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Taksim Gezi Parkı ! Canlı Twitter Yayını</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="refresh" content="15" >
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.jtwt.js"></script>
+        <link rel="stylesheet" href="js/jtwt.css" />
+        
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#twitter').jtwt({
+                    count : 62,
+                    query : '#direngeziparkı', 
+                    loader_text : 'acı haberler yükleniyor',
+                    image_size : 64,
+                });
+            });
+    
+        </script>
+    </head>
+    <body>
+ 
+
+        <div class="container">
+
+            <div class="hero-unit">
+                <h1>#direngeziparkı</h1>
+                <p>Taksim'de binlerce insana yapılan zulmü buradan takip edebilirsiniz.</p>
+                <p>
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-lang="tr" data-size="large" data-hashtags="direngeziparkı">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="span9 offset1">
+                    <div id="twitter"></div>
+                </div>
+            </div>
+
+            
+
+            
+
+            <footer>
+                <p>&copy; Türk Vatandaşı 2013</p>
+            </footer>
+
+        </div> <!-- /container -->
+
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
